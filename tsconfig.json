@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./built/",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "module": "es2015",
+    "moduleResolution": "node",  /*用NPM模式加载 */
+    "target": "es5",  /* 语法编译为es5语法 */
+    "experimentalDecorators": true,   /* vue-property-decorator 装饰器需要*/
+    "esModuleInterop": true,  /* 开启修饰器模式 */
+    "allowSyntheticDefaultImports": true,  /* 对于没有Export的库进行兼容 */
+    "lib": [] /* 识别基本的系统类库 */
+//    "baseUrl":""
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
